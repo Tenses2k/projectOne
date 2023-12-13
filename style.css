@@ -9,25 +9,22 @@ nav{
     display: flex;
     margin: 0 auto;
     width: 1170px;
-    height: 60px;
+    height: 90px;
     align-items: center;
     gap: 400px;
 
 }
 .logo{
-    margin-top: 25px;
 display: flex;
 justify-content:center;
 width: 126px;
 height: 64px;
 align-items: center;
-padding-top: 30px;
 }
 .logo img{
     height: 30px;
 }
 .bar {
-    margin-top: 25px;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -40,7 +37,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
-padding-top: 30px;
+
 }
 
 nav button{
@@ -68,8 +65,8 @@ a{
 .start{
 width: 726px;
 height: 252px;
-margin: 145px 364px 120px 350px;
-padding-top: 15px;
+margin: 120px 364px 145px 350px;
+
 }
 
 
@@ -129,7 +126,7 @@ display: flex;
 
 
 .first{
-    margin: 145px auto;
+    margin: 145px auto 0;
     width: 1170px;
     height: 528px;
 }
@@ -282,7 +279,7 @@ line-height: 24px;
 }
 
 .eggs{
-    margin: 120px 30px 115px 30px;
+    margin: 95px 30px 115px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,7 +288,7 @@ line-height: 24px;
 .textt{
     width: 760.5px;
     height: 168px;
-    margin: 115px auto 0 auto;
+    margin: 115px auto;
 }
 .bigtext{
     width: 685px;
@@ -461,7 +458,6 @@ font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: 24px; 
-padding-top: 40px;
 }
 
 .small a {
@@ -488,7 +484,7 @@ text-transform: uppercase;
     display: flex;
 justify-content: space-between;
 align-items: center;
-padding-top: 140px;
+padding-top: 110px;
 }
 
 .leftText{
@@ -674,7 +670,7 @@ margin: 2px 21px 115px 4px;
     display: inline-block; 
     background: #5AB963; 
     color: #fff; 
-    padding: 14px 30px 16px 30px; 
+    padding: 20px 40px; 
     text-decoration: none; /* Убираем подчёркивание */
     border-radius: 4px;
     font-family: Libre Franklin;
