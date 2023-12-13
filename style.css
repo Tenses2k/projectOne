@@ -9,22 +9,25 @@ nav{
     display: flex;
     margin: 0 auto;
     width: 1170px;
-    height: 90px;
+    height: 60px;
     align-items: center;
     gap: 400px;
 
 }
 .logo{
+    margin-top: 25px;
 display: flex;
 justify-content:center;
 width: 126px;
 height: 64px;
 align-items: center;
+padding-top: 30px;
 }
 .logo img{
     height: 30px;
 }
 .bar {
+    margin-top: 25px;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -37,6 +40,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
+padding-top: 30px;
 }
 
 nav button{
@@ -64,14 +68,14 @@ a{
 .start{
 width: 726px;
 height: 252px;
-margin: 120px 357px;
-
+margin: 145px 364px 120px 350px;
+padding-top: 15px;
 }
 
 
 .start h1{
 color: #FFF;
-width: 751px;
+width: 800px;
 margin-bottom: 35px;
 text-align: center;
 font-family: Libre Franklin Bold;
@@ -125,7 +129,7 @@ display: flex;
 
 
 .first{
-    margin: 120px auto;
+    margin: 145px auto;
     width: 1170px;
     height: 528px;
 }
@@ -284,11 +288,10 @@ line-height: 24px;
     align-items: center;
 }
 
-
 .textt{
     width: 760.5px;
     height: 168px;
-    margin: 115px auto;
+    margin: 115px auto 0 auto;
 }
 .bigtext{
     width: 685px;
@@ -341,7 +344,9 @@ height: 914px;
 }
 
 
-
+.pera{
+    padding-top: 70px;
+}
 
 .persik{
 display: inline-flex;
@@ -448,7 +453,7 @@ margin: 0 auto;
 }
 
 .big{
-    width: 344px;
+    width: 348px;
     color: #000;
 text-align: center;
 font-family: Libre Franklin;
@@ -456,6 +461,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: 24px; 
+padding-top: 40px;
 }
 
 .small a {
@@ -482,6 +488,7 @@ text-transform: uppercase;
     display: flex;
 justify-content: space-between;
 align-items: center;
+padding-top: 140px;
 }
 
 .leftText{
@@ -541,6 +548,8 @@ line-height: 36px;
         margin: 0 auto;
         height: 399px;
         background: #0A0E1A;
+        width: 1440px;
+        
     }
 
     .foterTexet{
@@ -564,6 +573,9 @@ flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 gap: 15px;
+}
+.uplogo{
+    padding-top: 20px;
 }
 .downC{
     color: #666;
@@ -647,6 +659,41 @@ margin: 2px 21px 115px 4px;
     width: 12px;
     height: 12px;
     margin-top: 2px;
+}
+
+.underlinee{
+    width: 1170px;
+    height: 1px;
+    flex-shrink: 0;
+    border-bottom: 1px solid #E6E6E6;
+    margin: 52px auto;
+}
+
+
+.btn{
+    display: inline-block; 
+    background: #5AB963; 
+    color: #fff; 
+    padding: 14px 30px 16px 30px; 
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 4px;
+    font-family: Libre Franklin;
+}
+.btn2{
+    display: block; 
+    background: #5AB963; 
+    color: #fff; 
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: Libre Franklin;
+}
+.btn3{
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-family: Libre Franklin;
 }
 
 @font-face {
