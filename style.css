@@ -1,0 +1,663 @@
+*{margin: 0px;}
+header{
+    margin: 0 auto;
+    width: 1440px;
+    height: 582px;
+    background-image: url(img/back.png);
+}
+nav{
+    display: flex;
+    margin: 0 auto;
+    width: 1170px;
+    height: 90px;
+    align-items: center;
+    gap: 400px;
+
+}
+.logo{
+display: flex;
+justify-content:center;
+width: 126px;
+height: 64px;
+align-items: center;
+}
+.logo img{
+    height: 30px;
+}
+.bar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+line-height: 24px;
+width: 644px;
+height: 64px;
+color: #FFF;
+font-family: Libre Franklin 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+nav button{
+    background-color: transparent;
+    border: none;
+    width: 120px;
+    height: 46px;
+    border-radius: 4px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-family: Libre Franklin;
+}
+a{
+    font-family: Libre Franklin;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+
+.start{
+width: 726px;
+height: 252px;
+margin: 120px 357px;
+
+}
+
+
+.start h1{
+color: #FFF;
+width: 751px;
+margin-bottom: 35px;
+text-align: center;
+font-family: Libre Franklin Bold;
+font-size: 71px;
+font-style: normal;
+font-weight: 700;
+line-height: 78px; 
+letter-spacing: 1px;
+}
+.start p {
+color: #FFF;
+font-family: IBM Plex Mono;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+margin-bottom: 60px;
+}
+
+.start button{
+
+    background: #5AB963;
+    border: none;
+    width: 160px;
+    height: 60px;
+    border-radius: 4px;
+    color: #FFF;
+
+text-align: center;
+font-family: Libre Franklin;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.knopka{
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.peska{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* main */
+
+
+.first{
+    margin: 120px auto;
+    width: 1170px;
+    height: 528px;
+}
+
+
+
+.first span{
+    color: #999;
+font-family: Libre Franklin;
+font-size: 24px;
+font-style: normal;
+font-weight: 100;
+line-height: 36px;
+}
+
+.info{
+    width: 585px;
+    height: 108px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 78px 0 0 ;
+}
+
+.info h2{
+   width: 517px;
+   height: 144px; 
+   color: #000;
+
+font-family: Libre Franklin;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+}
+
+.bloki{
+    width: 1190px;
+    height: 330px;
+    margin-top: 54px;
+    padding: 0 10px 0 -10px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.cup{
+    border: 1px solid #F7F7F7;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+    width: 377px;
+    height: 330px;
+}
+
+.sasiska{
+    border: 1px solid #F7F7F7;
+
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+    width: 377px;
+    height: 330px;
+}
+
+.cal{
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+    width: 377px;
+    height: 330px;
+}
+.cup img{
+    width: 60px;
+    height: 60px;
+}
+.sasiska img{
+    width: 60px;
+    height: 53px;
+}
+.cal img{
+    width: 60px;
+    height: 60px;
+}
+
+.cuup{
+    margin: 51px 64px 109px 41px;
+}
+.sasisska{
+    margin: 54px 56px 109px 41px;
+}
+.call{
+    margin: 51px 64px 85px 41px;
+}
+
+.cuup .frsT {
+width: 139px;
+height: 24px;
+margin-top: 25px;
+font-family: Libre Franklin;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+}
+.cuup .secT {
+    width: 272px;
+    height: 48px;
+    margin-top: 13px;
+    color: #999;
+
+font-family: IBM Plex Mono;
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.sasisska .frsT{
+ margin-top: 29px;
+ color: #000;
+font-family: Libre Franklin;
+font-size: 16px;
+width: 130px;
+font-weight: 700;
+line-height: 24px;
+}
+
+.sasisska .secT{
+    margin-top: 13px;
+    color: #999;
+    width: 280px;
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+   }
+
+   .call .frsT{
+margin-top: 25px;
+width: 128px;
+color: #000;
+font-family: Libre Franklin;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;}
+
+.call .secT{
+    width: 272px;
+    margin-top: 13px;
+    color: #999;
+font-family: IBM Plex Mono;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.eggs{
+    margin: 120px 30px 115px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.textt{
+    width: 760.5px;
+    height: 168px;
+    margin: 115px auto;
+}
+.bigtext{
+    width: 685px;
+    height: 144px;
+    color: #000;
+text-align: center;
+font-family: Libre Franklin;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+}
+.smalltext a {
+    width: 91px;
+    color: #5AB963;
+text-align: center;
+font-family: IBM Plex Mono;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 163.636% */
+text-transform: uppercase;
+margin: 6px 276px 0 318px;
+}
+
+
+.bigtext span{
+    color: #999;
+font-family: Libre Franklin;
+font-size: 24px;
+font-style: normal;
+font-weight: 100;
+line-height: 36px;
+}
+
+.underline{
+    width: 1170px;
+    height: 1px;
+    flex-shrink: 0;
+    border-bottom: 1px solid #E6E6E6;
+    margin: 115px auto;
+}
+
+
+.last{
+margin: 0 auto;
+width: 1170px;
+height: 914px;
+
+}
+
+
+
+
+.persik{
+display: inline-flex;
+height: 330px;
+padding-right: 230px;
+align-items: flex-start;
+gap: 100px;
+}
+
+.textik{
+    display: flex;
+width: 370px;
+padding: 3px 8px 74px 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 25px;
+}
+.frs{
+    width: 362px;
+    color: #000;
+font-family: Libre Franklin;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+}
+
+.frs span{
+    color: #999;
+font-family: Libre Franklin;
+font-size: 24px;
+font-style: normal;
+font-weight: 100;
+line-height: 36px;
+}
+
+.sec{
+    width: 360px;
+    color: #999;
+    font-family: IBM Plex Mono;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.spoon{
+    margin: 90px auto;
+    display: inline-flex;
+    height: 330px;
+    width: 1170px;
+    padding-left:230px ;
+    align-items: flex-start;
+    gap: 100px;
+    
+}
+
+.textikk{
+    display: flex;
+width: 370px;
+height: 330px;
+padding: 3px 0px 50px 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 25px;
+}
+
+.frs1{
+    width: 370px;
+    color: #000;
+font-family: Libre Franklin;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+}
+
+.frs1 span{
+    color: #999;
+font-family: Libre Franklin;
+font-size: 24px;
+font-style: normal;
+font-weight: 100;
+line-height: 36px;
+}
+.sec1{
+    width: 368px;
+    color: #999;
+font-family: IBM Plex Mono;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.more{
+    display: flex;
+width: 1170px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 12px;
+margin: 0 auto;
+}
+
+.big{
+    width: 344px;
+    color: #000;
+text-align: center;
+font-family: Libre Franklin;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+}
+
+.small a {
+    width: 203px;
+    color: #5AB963;
+text-align: center;
+font-family: IBM Plex Mono;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; 
+text-transform: uppercase;
+}
+
+
+
+
+/*footer*/
+
+.footerget{
+    width: 1170px;
+    height: 111px;
+    margin: 150px auto;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.leftText{
+    display: flex;
+width: 585px;
+height: 111px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 15px;
+}
+
+.up{
+    display: flex;
+height: 24px;
+padding-right: 465px;
+align-items: center;
+gap: 20px;
+flex-shrink: 0;
+}
+.fr{
+    width: 70px;
+    color: #5AB963;
+font-family: Libre Franklin;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+}
+.right{
+    width: 30px;
+    height: 2px;
+    background: #5AB963;
+    
+}
+.down{
+    width: 483px;
+    color: #000;
+font-family: Libre Franklin;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+}
+
+.footerget button{
+    background: #5AB963;
+    border: none;
+    width: 160px;
+    height: 60px;
+    border-radius: 4px;
+    color: #FFF;}
+
+
+
+    .background{
+        margin: 0 auto;
+        height: 399px;
+        background: #0A0E1A;
+    }
+
+    .foterTexet{
+        margin: 120px auto;
+display: flex;
+width: 1170px;
+height: 129px;
+justify-content: space-between;
+align-items: flex-start;
+margin: 120px auto;
+color: #FFF;
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.leftLogo{
+    display: flex;
+width: 585px;
+height: 63px;
+padding-right: 350px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 15px;
+}
+.downC{
+    color: #666;
+font-family: Libre Franklin;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; 
+}
+
+.rows{
+    display: flex;
+    width: 585px;
+    height: 129px;
+    padding-right: 51.75px;
+    align-items: flex-start;
+
+}
+
+.row1{
+    display: flex;
+width: 105px;
+padding: 0px 50px 25px 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 25px;
+}
+.row2 {
+    display: flex;
+    width: 105px;
+    padding: 0px 50px 25px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    
+}
+.row3{
+    display: flex;
+width: 182px;
+padding: 0px 50px 68px 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 25px;
+}
+.row3 a {
+    width: 132px;
+    color: #FFF;
+font-family: Libre Franklin;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+}
+
+.row4{
+    width: 146.25px;
+height: 129px;
+}
+
+.row2 .row2 .row3 a {
+    color: #FFF;
+font-family: Libre Franklin;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+}
+
+.fc{
+    width: 7px;
+    height: 12px;
+    
+margin: 2px 21px 115px 4px;
+}
+.tw{
+    width: 12px;
+    height: 10px;
+    margin: 3px 18px 116px 0;
+}
+.inst{
+    width: 12px;
+    height: 12px;
+    margin-top: 2px;
+}
+
+@font-face {
+    font-family: IBM Plex Mono;
+    src: url(fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf)
+}
+@font-face {
+    font-family: Libre Franklin;
+    src: url(fonts/Libre_Franklin/static/LibreFranklin-Regular.ttf);
+}
+@font-face {
+    font-family: Libre Franklin Bold;
+    src: url(fonts/Libre_Franklin/static/LibreFranklin-Bold.ttf);
+}
